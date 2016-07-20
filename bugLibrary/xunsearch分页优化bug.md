@@ -16,7 +16,7 @@
 
 ######修正前
 
-```
+```php
 	//$intResultCount 为结果数
 	if($intResultCount > 1)
     {
@@ -26,7 +26,7 @@
 
 ######修正前
 
-```
+```php
 	//$intResultCount 为结果数
 	//$intPage为分页
 	if($intResultCount > 1 && $intPage == 1)
