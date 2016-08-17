@@ -45,3 +45,17 @@
 	password your-password
 
 	重新打开git bash即可，无需再输入用户名和密码
+
+###方法三
+	
+GNU Linux 用户可以使用 ‘cache’ 认证助手包来缓存认证信息，运行下面的命令来启用凭据缓存，启用后每次输入密码将保存一小时（3600秒）
+
+```
+git config --global  credential.helper  'cache --timeout 3600'
+```
+
+查看 ‘cache’ 认证助手的所有配置:
+
+```
+git helpcredential-cache
+```
