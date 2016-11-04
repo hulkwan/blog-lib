@@ -31,8 +31,8 @@ composer global require fabpot/php-cs-fixer;
     - phpcs -n xxxxx   （编码检查的是一个示例， 更多命令请参考 phpcs -h）
     
 7. 修复代码
-
-    - phpcs /path/to/code --suffix=.fixed（费覆盖式修复示例）
+	- phpcbf /path/to/code
+    - phpcbf /path/to/code --suffix=.fixed（费覆盖式修复示例）
 8. 参考文章
 
     - [如何在windows上安装phpmd，phpcs和php-cs-fixer命令](https://zhidao.baidu.com/question/1736004101260730827.html)
